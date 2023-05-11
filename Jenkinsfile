@@ -12,6 +12,9 @@ node{
         {
             echo ex.getMessage()
         }
-
+    }
+    stage('should not execute')
+    {
+        echo 'should not execute'
     }
 }
